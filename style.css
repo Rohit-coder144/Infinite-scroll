@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0%;
+    min-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 235, 235);
+}
+
+h1.infinite-scroll {
+    font-family: Bebas Neue;
+    letter-spacing: 4px;
+}
+
+div.imageContainer {
+   margin: 14px 28%;
+}
+
+ img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    div.imageContainer {
+        margin: 0 5vh;
+    }
+} 
